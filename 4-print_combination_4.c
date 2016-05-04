@@ -25,9 +25,9 @@ void print_first_row(void)
   i = 0;
   j = 0;
 
-  for (k = 0; k < 10; k++) 	/* i is first digit of first number */
+  for (k = 0; k < 10; k++) 	/* k is first digit of first number */
   {
-    for (l = 0; l < 10; l++)	/* j is second digit of first number */
+    for (l = 0; l < 10; l++)	/* l is second digit of first number */
     {
       if (i == 0 && j == 0)
       {}
@@ -52,9 +52,9 @@ void print_combination_4(void)
   {
     for (j = 0; j < 10; j++)
     {
-      for (k = 0; k < 10; k++) 	/* i is first digit of first number */
+      for (k = 0; k < 10; k++) 	/* k is first digit of first number */
       {
-	for (l = 0; l < 10; l++)	/* j is second digit of first number */
+	for (l = 0; l < 10; l++)	/* l is second digit of first number */
 	{
 	  if (i == 0 && j == 0) /* if first row */
 	  {}
